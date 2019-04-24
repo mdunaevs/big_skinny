@@ -17,6 +17,7 @@ html{
     float: left;
     padding: 1em;
     font-weight: 0.875em;
+    position: fixed;
 }
 
 #sidebar h3{
@@ -37,20 +38,38 @@ html{
     margin-left: 2em;
 }
 
-/* #sidebar a{
-    text-decoration: none;
-    color: #ca1e00;
+#wallet-display{
+    text-align: center;
+    padding: 1em;
+    margin-left: 15em;
+    z-index: -100;
 }
 
-#sidebar a:hover{
-    text-decoration: underline;
-} */
+#wallet-view{
+  padding: 1em;
+  font-weight: 0.875em;
+}
+
+#wallet-info{
+  float: right;
+  padding: 1em;
+  font-weight: 0.875em;
+  margin-top: 3.5em;
+}
 
 
 
-/* ABOVE IS MINE */
 
 
+
+
+
+
+
+
+
+
+/* Nav bar CSS*/
 body {
 	font-family: "Verdana", Geneva, sans-serif;
 	font-size: 100%;
