@@ -3,6 +3,10 @@
   var BSApp = angular.module("BSApp", []);
   BSApp.controller("myCtrl", function($scope) {
       $scope.wallets = wallets;
+      $scope.range = new Array(10);
+      $scope.cutStar = function(pop){
+        return !(Number.isInteger(pop));
+      };
 
       $scope.filteredWallets = function () {
           return function (p) {

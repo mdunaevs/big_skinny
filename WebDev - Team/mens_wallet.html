@@ -99,8 +99,12 @@
                                 <div class = "row wallet-info center-text">
                                     <strong>{{item.itemNumber}}</strong>
                                     <br/>
-                                    
-                                    {{item.popularity}}
+                                    <span  data-ng-repeat="i in range.slice(0,item.popularity) track by $index"><img class="star" src="./images/star.png"></span>
+                                    <span ng-if="cutStar(item.popularity)">
+                                        <img class="half_star" src="./images/star.png">
+                                    </span>
+
+                                      {{item.popularity}}
                                     <br/>
                                     <strong>${{item.price}}</strong>
                                     <br/>
