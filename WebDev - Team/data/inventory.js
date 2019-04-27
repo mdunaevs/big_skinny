@@ -31,7 +31,7 @@ var wallets =
   "popularity" :  0,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-leather-zipfold-30.jpg"
   },
   {
   "itemNumber": "RFID blocking hipster black",
@@ -42,7 +42,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-hipster-48.jpg"
   },
   {
   "itemNumber": "Taxicat bi-fold",
@@ -53,7 +53,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "purple",
-  "image": "./images/"
+  "image": "./images/taxicat-bi-fold-wallet-972.jpg"
   },
   {
   "itemNumber": "Leather taxicat bi-fold",
@@ -64,7 +64,7 @@ var wallets =
   "popularity" :  4.4,
   "bestSeller": false,
   "color": "pink",
-  "image": "./images/"
+  "image": "./images/leather-taxicat-bi-fold-wallet-208.jpg"
   },
   {
   "itemNumber": "Multi-pocket bi-fold",
@@ -75,7 +75,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": true,
   "color": "blue",
-  "image": "./images/"
+  "image": "./images/multi-pocket-bi-fold-wallet-400.jpg"
   },
   {
   "itemNumber": "Leather hybrid bi-fold",
@@ -86,7 +86,7 @@ var wallets =
   "popularity" :  4.3,
   "bestSeller": false,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/leather-hybrid-bifold-wallet-138.jpg"
   },
   {
   "itemNumber": "The curve",
@@ -97,7 +97,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/the-curve-248.jpg"
   },
   {
   "itemNumber": "The curve in leather",
@@ -108,7 +108,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": true,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/the-curve-in-leather-209.jpg"
   },
   {
   "itemNumber": "World bi-fold",
@@ -119,10 +119,10 @@ var wallets =
   "popularity" :  4.3,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/world-bifold-wallet-187.jpg"
   },
   {
-  "itemNumber": "World b-fold with zippered pocket",
+  "itemNumber": "World bi-fold with zippered pocket",
   "gender": "men",
   "type"  :  "bi-fold",
   "model": "flap",
@@ -130,7 +130,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/world-bifold-wallet-with-zippered-pocket-227.jpg"
   },
   {
   "itemNumber": "Leather hybrid world bi-fold",
@@ -141,7 +141,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/leather-hybrid-world-bi-fold-wallet-117.jpg"
   },
   {
   "itemNumber": "Leather hybrid world bi-fold with zippered pocket",
@@ -152,7 +152,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/leather-hybrid-world-bi-fold-wallet-with-zippered-pocket-1.jpg"
   },
   {
   "itemNumber": "Compact sports",
@@ -163,7 +163,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/compact-sports-wallet-306.jpg"
   },
   {
   "itemNumber": "Leather hybrid bi-fold compact sports ",
@@ -174,7 +174,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/leather-hybrid-bi-fold-compact-sports-wallet-1.jpg"
   },
   {
   "itemNumber": "L-shape",
@@ -185,7 +185,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": true,
   "color": "blue",
-  "image": "./images/"
+  "image": "./images/l-shape-wallet-348.jpg"
   },
   {
   "itemNumber": "Leather hybrid L-shape",
@@ -196,7 +196,7 @@ var wallets =
   "popularity" :  4.3,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/leather-hybrid-l-shape-wallet-145.jpg"
   },
   {
   "itemNumber": "Metro bi-fold",
@@ -207,7 +207,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/metro-bifold-wallet-1.jpg"
   },
   {
   "itemNumber": "Leather metro bi-fold",
@@ -218,7 +218,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/leather-metro-bifold-85.jpg"
   },
   {
   "itemNumber": "Acrobat money clip bi-fold",
@@ -229,7 +229,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/acrobat-money-clip-bi-fold-wallet-215.jpg"
   },
   {
   "itemNumber": "Leather acrobat money clip bi-fold",
@@ -240,7 +240,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/leather-acrobat-money-clip-bi-fold-wallet-150.jpg"
   },
   {
   "itemNumber": "Motorcycle bi-fold with chain",
@@ -251,7 +251,7 @@ var wallets =
   "popularity" :  4.3,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/motorcycle-bifold-checkbook-wallet-with-chain-45.jpg"
   },
   {
   "itemNumber": "Leather motorcycle with chain",
@@ -262,7 +262,7 @@ var wallets =
   "popularity" :  4.3,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/leather-motorcycle-wallet-w-chain-1.jpg"
   },
   {
   "itemNumber": "Hipster bi-fold",
@@ -273,7 +273,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/the-hipster-bifold-212.jpg"
   },
   {
   "itemNumber": "Leather hipster bi-fold",
@@ -284,7 +284,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/leather-hipster-bifold-1.jpg"
   },
   {
   "itemNumber": "Leather badge bi-fold",
@@ -295,7 +295,7 @@ var wallets =
   "popularity" :  3.5,
   "bestSeller": false,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/leather-badge-bifold-wallet-54.jpg"
   },
   {
   "itemNumber": "Badge bi-fold",
@@ -306,7 +306,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/badge-bifold-wallet-54.jpg"
   },
   {
   "itemNumber": "Zippered bi-fold",
@@ -317,10 +317,10 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "gray",
-  "image": "./images/"
+  "image": "./images/zippered-bifold-1.jpg"
   },
   {
-  "itemNumber": "Leather Zippered bi-fold",
+  "itemNumber": "Leather Zipfold bi-fold",
   "gender": "men",
   "type"  :  "bi-fold",
   "model": "zipper",
@@ -328,7 +328,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/leather-zipfold-wallet-82.jpg"
   },
   {
   "itemNumber": "Traveler",
@@ -339,7 +339,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": true,
   "color": "red",
-  "image": "./images/"
+  "image": "./images/traveler-wallet-94.jpg"
   },
   {
   "itemNumber": "New Yorker",
@@ -350,7 +350,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": true,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/new-yorker-wallet-414.jpg"
   },
   {
   "itemNumber": "Tri-fold",
@@ -361,7 +361,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": true,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/tri-fold-wallet-9.jpg"
   },
   {
   "itemNumber": "Leather hybrid tri-fold",
@@ -372,7 +372,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/leather-hybrid-tri-fold-wallet-1.jpg"
   },
   {
   "itemNumber": "RFID blocking tri-fold",
@@ -383,7 +383,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-tri-fold-wallet-1.jpg"
   },
   {
   "itemNumber": "RFID blocking Leather tri-fold",
@@ -394,7 +394,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-leather-tri-fold-93.jpg"
   },
   {
   "itemNumber": "Leather hybrid tri-fold",
@@ -405,7 +405,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/leather-hybrid-tri-fold-wallet-1.jpg"
   },
   {
   "itemNumber": "RFID blocking leather L-fold",
@@ -416,7 +416,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-leather-l-fold-black-66.jpg"
   },
   {
   "itemNumber": "Trixie tri-fold",
@@ -427,7 +427,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": true,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/trixie-tri-fold-wallet-706.jpg"
   },
   {
   "itemNumber": "Leather trixie tri-fold",
@@ -438,7 +438,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/leather-trixie-tri-fold-wallet-278.jpg"
   },
   {
   "itemNumber": "RFID World",
@@ -449,7 +449,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-world-zip-56.jpg"
   },
   {
   "itemNumber": "RFID blocking leather bi-fold",
@@ -460,7 +460,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-leather-bi-fold-1.jpg"
   },
   {
   "itemNumber": "RFID blocking leather zipfold",
@@ -471,7 +471,7 @@ var wallets =
   "popularity" :  0,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-leather-zipfold-30.jpg"
   },
   {
   "itemNumber": "RFID blocking bi-fold",
@@ -482,7 +482,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-bi-fold-80.jpg"
   },
   {
   "itemNumber": "RFID blocking leather tri-fold",
@@ -493,7 +493,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-leather-tri-fold-93.jpg"
   },
   {
   "itemNumber": "RFID blocking tri-fold",
@@ -504,7 +504,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-tri-fold-wallet-1.jpg"
   },
   {
   "itemNumber": "RFID World zip",
@@ -515,7 +515,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-world-zip-56.jpg"
   },
   {
   "itemNumber": "RFID blocking leather world with zipper bi-fold",
@@ -526,7 +526,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-leather-world-w-zipper-bifold-1.jpg"
   },
   {
   "itemNumber": "RFID blocking leather world bi-fold",
@@ -537,7 +537,7 @@ var wallets =
   "popularity" :  4.0,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-leather-world-bifold-80.jpg"
   },
   {
   "itemNumber": "RFID blocking traveler",
@@ -548,7 +548,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-traveler-wallet-101.jpg"
   },
   {
   "itemNumber": "RFID blocking leather curve",
@@ -559,7 +559,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-leather-curve-bifold-1.jpg"
   },
   {
   "itemNumber": "RFID blocking leather curve bi-fold [nylon]",
@@ -570,7 +570,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-curve-bifold-nylon-1.jpg"
   },
   {
   "itemNumber": "RFID blocking leather super skinny bi-fold",
@@ -581,7 +581,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-leather-super-skinny-bifold-70.jpg"
   },
   {
   "itemNumber": "RFID blocking nylon card holder",
@@ -592,7 +592,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-nylon-card-holder-1.jpg"
   },
   {
   "itemNumber": "RFID blocking leather L-fold",
@@ -603,7 +603,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-leather-l-fold-black-66.jpg"
   },
   {
   "itemNumber": "Leather traveler",
@@ -614,7 +614,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/leather-traveler-117.jpg"
   },
   {
   "itemNumber": "Passport holder",
@@ -625,7 +625,7 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/passport-holder-1.jpg"
   },
   {
   "itemNumber": "Leather passport holder",
@@ -636,7 +636,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/leather-passport-holder-1.jpg"
   },
   {
   "itemNumber": "World bi-fold with zipppered pockets",
@@ -647,7 +647,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/world-bifold-wallet-with-zippered-pocket-227.jpg"
   },
   {
   "itemNumber": "Leather hybrid world bi-fold with zipppered pockets",
@@ -658,7 +658,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/leather-hybrid-world-bi-fold-wallet-with-zippered-pocket-1.jpg"
   },
   {
   "itemNumber": "RFID blocking leather world with zipper bifold",
@@ -669,7 +669,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "black",
-  "image": "./images/"
+  "image": "./images/rfid-blocking-leather-world-bifold-80.jpg"
   },
   {
   "itemNumber": "Panther clutch",
@@ -680,7 +680,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "purple",
-  "image": "./images/"
+  "image": "./images/panther-clutch-221.jpg"
   },
   {
   "itemNumber": "Leather panther clutch",
@@ -691,7 +691,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/leather-panther-clutch-350.jpg"
   },
   {
   "itemNumber": "Hipster bi-fold",
@@ -702,7 +702,7 @@ var wallets =
   "popularity" :  4.5,
   "bestSeller": false,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/the-hipster-bifold-212.jpg"
   },
   {
   "itemNumber": "Leather hipster bi-fold",
@@ -713,6 +713,6 @@ var wallets =
   "popularity" :  5.0,
   "bestSeller": false,
   "color": "brown",
-  "image": "./images/"
+  "image": "./images/leather-hipster-bifold-1.jpg"
   },
 ];

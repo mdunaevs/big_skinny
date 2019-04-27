@@ -43,22 +43,46 @@ html{
     padding: 1em;
     margin-left: 15em;
     z-index: -100;
+    padding-bottom: 60px;
 }
 
-#wallet-view{
-  padding: 1em;
-  font-weight: 0.875em;
+.wallet-view{
+    padding: 0.25em;
+    font-weight: 0.875em;
+    align-content: center;
 }
 
-#wallet-info{
-  float: right;
-  padding: 1em;
-  font-weight: 0.875em;
-  margin-top: 3.5em;
+.wallet-view img{
+    width: 15em;
+    height: 15em;
 }
 
+.wallet-info{
+  font-size: 0.9em;
+  margin-bottom: 5em;
+}
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+.center-text{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#add-btn{
+    background-color: #336699;
+    color: white;
+    font-size: 1em;
+    width: 75%;
+    font-variant:small-caps;
+}
 
 
 

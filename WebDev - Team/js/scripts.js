@@ -9,7 +9,6 @@
               for (var i in $scope.wallets) {
                   var show = true;
                   var biFold = document.getElementById("bi-fold").checked;
-                  console.log("Clicked bi fold: " + biFold);
                   var triFold = document.getElementById("tri-fold").checked;
                   var rfid = document.getElementById("RFID").checked;
                   var traveler = document.getElementById("traveler").checked;
@@ -113,6 +112,10 @@
           };
       };
   });
+
+
+// Got code from https://embed.plnkr.co/q7pgHz/
+
 
 /*
 

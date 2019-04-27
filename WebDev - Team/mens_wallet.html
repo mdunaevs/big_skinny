@@ -10,10 +10,12 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel = "stylesheet" media = "all" type = "text/css" href = "css/styles.css" />
       <link rel="icon" href="images/logo.png">
+      <link rel="stylesheet" href="css/jk-rating-stars.min.css" />
 
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
       <script src="data/inventory.js"></script>
       <script type="text/javascript" src="js/scripts.js"></script>
+      <script src="js/jk-rating-stars.min.js"></script>
       <title>Big Skinny Wallets</title>
     </head>
 
@@ -66,7 +68,7 @@
                           <label for="medium">$25.01 - 40.00</label>
                           <br/>
                           <input type="checkbox" id="high" name="high" ng-model="high" ng-change="filteredWallets()">
-                          <label for="high">$40.01+</label>
+                          <label for="high">$40.01 +</label>
                       <br/><br/>
 
                       <h2><strong>Popular</strong><h2>
@@ -84,25 +86,56 @@
                           <label for="zipper">Zipper</label>
                           <br/>
                           <input type="checkbox" id="clip" name="clip" ng-model="clip" ng-change="filteredWallets()">
-                          <label for="clip">clip</label>
+                          <label for="clip">Clip</label>
                       <br/><br/>
                     </div>
 
-                    <div id = "wallet-display" class="col-sm-10">
-                        <div ng-repeat= "item in wallets | filter:filteredWallets()" class = "row">
-                            <div id = "wallet-view" class = "col-sm-7">
+                    <div class="col-sm-10" id = "wallet-display">
+                        <div class = "row">
+                            <div ng-repeat= "item in wallets | filter:filteredWallets()" class = "col-sm-4">
+                                <div class = "row wallet-view">
+                                    <img src={{item.image}} class = "center"/>
+                                </div>
+                                <div class = "row wallet-info center-text">
+                                    <strong>{{item.itemNumber}}</strong>
+                                    <br/>
+                                    
+                                    {{item.popularity}}
+                                    <br/>
+                                    <strong>${{item.price}}</strong>
+                                    <br/>
+                                    <button type="button" id = "add-btn">Add To Cart</button>
+                                </div>
+                            </div>
+                            <!-- <div ng-repeat= "item in wallets | filter:filteredWallets()" class = "col-sm-4">
+                                <div class = "row wallet-view">
+                                    <img src={{item.image}} />
+                                </div>
+                                <div class = "row wallet-info">
+                                    <div>{{item.itemNumber}}</div><br/><br/>
+                                    <div>Popularity: {{item.popularity}}</div><br/><br/>
+                                    <div>Price: ${{item.price}}</div>
+                                </div>
+                            </div>
+                            <div ng-repeat= "item in wallets | filter:filteredWallets()" class = "col-sm-4">
+                                <div class = "row wallet-view">
+                                    <img src={{item.image}} />
+                                </div>
+                                <div class = "row wallet-info">
+                                    <div>{{item.itemNumber}}</div><br/><br/>
+                                    <div>Popularity: {{item.popularity}}</div><br/><br/>
+                                    <div>Price: ${{item.price}}</div>
+                                </div>
+                            </div> -->
+                            <!-- <div id = "wallet-view" class = "col-sm-7">
                                 <img src={{item.image}} />
-                                <div>{{item.itemNumber}}</div>
                             </div>
                             <div id = "wallet-info" class = "col-sm-5">
-                               <div>Type: {{item.type}}</div>
-                               <div>Model: {{item.model}}</div>
-                               <div>Gender: {{item.gender}}</div>
-                               <div>Color: {{item.color}}</div>
-                               <div>Popularity: {{item.popularity}}</div>
-                               <div>Best Seller: {{item.bestSeller}}</div>
-                               <div>Price: ${{item.price}}</div>
-                            </div>
+                                <div>{{item.itemNumber}}</div>
+                                <div>Popularity: {{item.popularity}}</div>
+                                <div>Best Seller: {{item.bestSeller}}</div>
+                                <div>Price: ${{item.price}}</div>
+                            </div> -->
                         </div>
 
                         <!-- <div class="col-sm-8">
