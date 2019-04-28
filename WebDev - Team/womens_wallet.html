@@ -13,8 +13,8 @@
       <link rel="stylesheet" href="css/jk-rating-stars.min.css" />
 
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-      <script src="data/inventory_men.js"></script>
-      <script type="text/javascript" src="js/scripts_men.js"></script>
+      <script src="data/inventory_women.js"></script>
+      <script type="text/javascript" src="js/scripts_women.js"></script>
       <script src="js/jk-rating-stars.min.js"></script>
       <title>Big Skinny Wallets</title>
     </head>
@@ -47,11 +47,11 @@
                       <h3>Filter</h3>
                       <h2><strong>Type</strong><h2>
 
-                          <input type="checkbox" id="bi-fold" name="bi-fold" ng-model="bifold" ng-change="filteredWallets()">
-                          <label for="bi-fold">Bi-fold</label>
+                          <input type="checkbox" id="pocket" name="pocket" ng-model="pocket" ng-change="filteredWallets()">
+                          <label for="pocket">Pocket Sized</label>
                           <br/>
-                          <input type="checkbox" id="tri-fold" name="tri-fold" ng-model="trifold" ng-change="filteredWallets()">
-                          <label for="tri-fold">Tri-fold</label>
+                          <input type="checkbox" id="long" name="long" ng-model="long" ng-change="filteredWallets()">
+                          <label for="long">Long</label>
                           <br/>
                           <input type="checkbox" id="RFID" name="RFID" ng-model="RFID" ng-change="filteredWallets()">
                           <label for="RFID">RFID</label>
